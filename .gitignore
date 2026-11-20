@@ -1,0 +1,58 @@
+# === Node / Frontend ===
+node_modules/
+.next/
+*.tsbuildinfo
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# === Java / Maven ===
+target/
+*.class
+*.jar
+!backend/mvnw.jar
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === College Report / Presentation Build Scripts (not source code) ===
+ARCUS_Major_Project_Report.docx
+ARCUS_Major_Project_Report_Verified.docx
+ARCUS_Project_Demo_Presentation.pptx
+ARCUS_Project_Progress_Diary.docx
+build_demo_presentation.py
+build_official_major_report.py
+build_progress_diary.py
+generate_demo_screenshots.py
+generate_fresh_verified_report.py
+test_docx.py
+test_notes.pptx
+test_pres.pptx
+test_pil.png
+template.pptx
+medicaps_logo.png
+image*.png
+image*.svg
+slide_previews/
+demo_screenshots/
+
+# === Build/Run Scripts ===
+RUN_PROJECT.bat
+start.bat
+start.sh
+backend/run.bat
+frontend/run.bat
+ml-engine/run.bat
+
+# === Lock files ===
+package-lock.json
+~$*
